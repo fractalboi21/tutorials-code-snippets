@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <div>
+        <h1 id="score">0</h1>
+        <button id="add">add score</button>
+        <button id="minus">minus score</button>
+    </div>
+
+<script>
+var score = 0;
+function addScore() {
+    const h1 = document.querySelector("#score");
+    h1.innerHTML = score;
+}
+
+document.querySelector("#add").onclick = function(){
+    score = score+1;
+    addScore()   
+}
+
+document.querySelector("#minus").onclick = function(){
+    score = score-1;
+    addScore()   
+}
+
+</script>
+</body>
+</html>

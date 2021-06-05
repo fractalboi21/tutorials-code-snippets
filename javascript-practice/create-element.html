@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+    <h1>create element</h1>
+    <button id="btn">add tag</button>
+    <button id="rem">remove tag</button>
+    <hr>
+
+
+<script>
+const button = document.querySelector("#btn");
+button.onclick = function(){
+    div = document.createElement("input");
+    document.body.append(div);
+}
+
+const ipt = document.querySelector("#rem");
+ipt.onclick = function(){
+    input = document.querySelector("input").remove();
+}
+
+</script>
+</body>
+</html>
