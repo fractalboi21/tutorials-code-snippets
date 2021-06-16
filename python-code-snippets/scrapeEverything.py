@@ -3,7 +3,9 @@ from bs4 import BeautifulSoup
 html = requests.get("https://pythonawesome.com/").content
 soup = BeautifulSoup(html,"lxml")
 
-#tags link script a  noscript nav
+#you find seo keywords from meta tags
+
+#tags link script a  noscript nav head 
 #href src
 def get_links_from_tag_attribute(tag,attribute):
     script_tags = soup.find_all(tag)
