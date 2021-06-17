@@ -1,0 +1,37 @@
+
+
+<!doctype html>
+<html lang="en">
+   <head>
+      <title>The HTML5 Herald</title>
+      <style>
+         div {
+         width:25px;
+         height:25px;
+         background-color:black;
+         margin: 5px;
+         }
+         div:hover {
+         background-color:blue;
+         box-shadow: 0px 0px 100px blue; 
+         }
+         body {
+         display: grid;
+         grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+         padding:10px;
+         background-color:#1a1a1a;
+         }
+      </style>
+   </head>
+   <body>
+      <div></div>
+      <script>
+         for (let i =1 ; i<1000 ;i++) {
+           let newElement = document.createElement('div');
+           document.body.append(newElement);
+         }
+           
+      </script>
+   </body>
+</html>
+
