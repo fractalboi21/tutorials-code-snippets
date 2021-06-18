@@ -1,0 +1,11 @@
+<a id="download_link" download="my_exported_file.txt" href=””>Download as Text File</a>
+
+<script>
+function download(text) {
+  var data = new Blob([text], {type: 'text/plain'});
+  var url = window.URL.createObjectURL(data);
+
+document.getElementById('download_link').href = url;
+}
+
+</script>
