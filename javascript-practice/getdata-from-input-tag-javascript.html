@@ -1,0 +1,18 @@
+<html>
+<label>Enter data:</label>
+<br/>
+<input placeholder="enter something.." id="data"/>
+</br>
+<button onclick="getdata()">click me!</button>
+<hr/>
+<h1 id="text">hello</h1>
+
+<script>
+function getdata() {
+  var val = document.getElementById("data").value;
+  document.getElementById("text").innerText = val.toUpperCase();
+  
+}
+<script/>
+  
+<html/>
