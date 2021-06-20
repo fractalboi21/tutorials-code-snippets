@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>links</title>
+</head>
+
+<body>
+  <a href="sd"></a>
+  <h1>links</h1>
+  <ul id="mylist">
+    <li>apple</li>
+  </ul>
+
+</body>
+<script type="text/javascript">
+  const ul = document.getElementById("mylist");
+const list = document.getElementsByTagName("a");
+
+for (let i of list) {
+  let li = document.createElement("li");
+  li.textContent = i.href;
+  ul.appendChild(li);
+}
+
+</script>
+
+</html>
