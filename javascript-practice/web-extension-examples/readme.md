@@ -13,4 +13,8 @@ var mandatory = document.getElementsByClassName("fullwidth-table")[0].childNodes
 ```javascript
 window.location.replace("https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/name");
 ```
-
+- Addblocker for only https://www.w3schools.com/
+```javascript
+document.getElementById("mainLeaderboard").remove()
+document.getElementById("google_ads_iframe_/22152718/sws-hb//w3schools.com//main_leaderboard_0__container__").remove()
+```
