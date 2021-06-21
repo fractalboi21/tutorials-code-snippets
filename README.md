@@ -7,3 +7,6 @@
 - https://www.opensourceforu.com/2016/11/converting-plain-text-handwritten/?amp
 
 
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
