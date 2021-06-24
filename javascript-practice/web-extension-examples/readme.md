@@ -38,7 +38,10 @@ inject()
 function injectBootstrap(){let t=document.createElement("link");t.href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css",t.rel="stylesheet",t.integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC",t.crossOrigin="anonymous";let s=document.createElement("script");s.src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js",s.integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM",s.crossOrigin="anonymous";let e=document.createElement("script");e.src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js",e.integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p",e.crossOrigin="anonymous";let n=document.createElement("script");n.src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js",n.integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF",n.crossOrigin="anonymous",document.head.appendChild(t),document.head.appendChild(s),document.head.appendChild(e),document.head.appendChild(n)} injectBootstrap()
 
 ```
-
+# change bg to black and text to white
+```javascript
+document.body.className = "p-3 mb-2 bg-dark text-white";
+```
 
 
 # Online tools
