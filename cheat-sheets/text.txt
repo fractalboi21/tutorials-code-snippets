@@ -1,0 +1,5 @@
+https://websitesetup.org/javascript-cheat-sheet/
+https://websitesetup.org/jquery-cheat-sheet/
+https://websitesetup.org/sql-cheat-sheet/
+https://htmlcheatsheet.com/js/
+https://ilovecoding.org/blog/js-cheatsheet
