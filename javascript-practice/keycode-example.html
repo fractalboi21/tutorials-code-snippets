@@ -1,0 +1,16 @@
+<head>
+</head>
+<style>
+#content {
+font-size:300px;
+text-align:center;
+}
+</style>
+<body>
+<div id="content">press any key</div>
+<script>
+//document.body.addEventListener("keypress",(e) => console.log(e.key))
+const content = document.getElementById("content");
+document.body.addEventListener("keypress",(e) => content.innerHTML = e.key);
+</script>
+</body>
