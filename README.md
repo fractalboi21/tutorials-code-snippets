@@ -21,6 +21,6 @@
 - check if im online or not using javascript
 - get useragent, os, platform, appcodename,  using javascript
 - get css of a element using javascript
-
+- data analysis on youtube takeout data
 
 
