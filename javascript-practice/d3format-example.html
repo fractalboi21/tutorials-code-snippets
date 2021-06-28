@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        let x = document.getElementById("input");
+        //x = Number(x);
+        //const f = format("~s")(x);
+        //document.getElementById("display").innerHTML = f;
+        x.addEventListener("input", func());
+
+        function func() {
+            let val = document.getElementById("input").value;
+            document.getElementById("display").innerHTML = val;
+        }
+    </script>
+    <style>
+        h1 {
+            align-content: center;
+            font-size: 34px;
+        }
+
+        #display {
+            margin-top: 50px;
+            margin-left: 50%;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        #footer {
+            margin-top: 300px;
+            margin-left: 40%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1 id="h1">Convert <span class="badge bg-danger"></span>long numbers to human readable form</h1>
+
+        <input id="input" class="form-control form-control-lg" type="text" placeholder="enter a number" aria-label=".form-control-lg example" oninput="func1()">
+
+        <div id="display">nothing to display</div>
+        <p id="footer">powered by <small><a href="https://www.npmjs.com/package/d3-format">d3-format</a> & bootstrap</small>
+        </p>
+
+    </div>
+
+</body>
+
+</html>
