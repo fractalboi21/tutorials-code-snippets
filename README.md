@@ -25,3 +25,6 @@
 - data analysis on youtube takeout data
 - typing speed calc
 - reading time calc for a books courses,blog, videos
+- portfolio website with crud functionality
+- date time related projects (days between, how many days are the in my life)
+- calculate the time required to read a blog post
