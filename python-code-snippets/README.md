@@ -27,6 +27,6 @@ python3 manage.py createsuperuser
 python3 manage.py runserver
 ```
 
-
+[django authentication example project from autho](https://auth0.com/blog/django-authentication/)
 
 
