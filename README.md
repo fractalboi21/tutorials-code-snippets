@@ -7,7 +7,7 @@
 - [Plain text to handwriting generator.](https://thesage21.github.io/handwritten/)
 - [Have some fun converting plain text to handwritten](https://www.opensourceforu.com/2016/11/converting-plain-text-handwritten/?amp)
 
-#learning:
+# learning:
 
 - this keyword
 - event bubbling
@@ -16,7 +16,7 @@
 - npm
 - ajax,promises, callbacks
 
-#simple project ideas
+# simple project ideas
 
 - viberate using js
 - check if im online or not using javascript
@@ -28,3 +28,5 @@
 - portfolio website with crud functionality
 - date time related projects (days between, how many days are the in my life)
 - calculate the time required to read a blog post
+
+# heroku workflow
