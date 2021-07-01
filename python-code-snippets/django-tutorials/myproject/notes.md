@@ -32,7 +32,11 @@ when ever you make changes to your model use these following commands
 python3 manage.py makemigrations
 python3 manage.py migrate
 ```
-
+create superuser
+```
+python3 manage.py createsuperuser
+```
+And go check http://127.0.0.1:8000/admin/ and your password
 
 
 
