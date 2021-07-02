@@ -36,7 +36,25 @@ create superuser
 ```
 python3 manage.py createsuperuser
 ```
-And go check http://127.0.0.1:8000/admin/ and your password
+And go check http://127.0.0.1:8000/admin/ and enter your password
 
 
+create app
+```
+python3 manage.py startapp <app>
+```
+
+#Views code snippets
+```python3
+#/<app>/views.py
+# function based viewa using HttpResponse
+def geeks_view(request):
+    count = Person.objects.count()
+    html = f"Total number of entries: {count}"
+    return HttpResponse(html)
+
+#fuction
+def name_list(request):
+    return render(request,"index.html",context = {"info":"world"})
+```
 
