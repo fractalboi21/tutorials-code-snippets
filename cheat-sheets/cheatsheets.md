@@ -9,3 +9,7 @@
 
 
 
+https://websitesetup.org/jquery-cheat-sheet/
+https://websitesetup.org/wordpress-cheat-sheet/
+https://websitesetup.org/css3-cheat-sheet/
+https://websitesetup.org/html5-periodical-table/

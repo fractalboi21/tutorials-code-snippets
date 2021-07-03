@@ -28,3 +28,4 @@ https://hackr.io/blog/css-cheat-sheet
 https://hackr.io/blog/css-cheat-sheet
 https://zellwk.com/blog/9-important-css-properties-you-must-know/
 
+https://websitesetup.org/javascript-cheat-sheet/
