@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Predict reading time</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yanchokraev/grayshift@1.0.2/dist/css/grayshift.min.css" integrity="sha384-BEz3swSE9zJc0Sejcc2Hzrbjq8/0rFfS2ASsVlVM1F3cdbXW2VYMlhod3OZr1k3M" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" />
+        <style>
+            #btn {
+                margin-top: 25px;
+            }
+
+            #display {
+                margin-top: 50px;
+            }
+
+            #data {
+                margin-top: 50px;
+            }
+
+            #display {
+                margin-top: 50px;
+            }
+
+            .md {
+                border: 5px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">How long will it take read to this paragraph?</h1>
+
+        <div class="container">
+            <textarea id="data" class="form-control" id="textarea" rows="3" placeholder="Enter paragraph"></textarea>
+            <button onclick="getdata()" id="btn" class="btn btn-lg btn-dark w-100" type="button">Predict</button>
+
+            <div class="container">
+                <div class="row">
+                    <div class="md:col">
+                        <div class="card" style="max-width: 348px;">
+                            <h1 class="mb-3" style="font-size: 1.125rem;">Number of words</h1>
+                            <p class="mb-5">Total number of words in the given paragraph</p>
+  <h1 class="btn btn-lg btn-info w-100" id="numWords" style="color:white">0 words</h1>
+
+                        </div>
+                    </div>
+                    <div class="md:col">
+                        <div class="card" style="max-width: 348px;">
+                            <h1 class="mb-3" style="font-size: 1.125rem;">Average Time (min)</h1>
+                            <p class="mb-5">Average time taken to read this paragraph in minutes.</p>
+  <h1 class="btn btn-lg btn-info w-100" id="minutes" style="color:white">0 min</h1>
+
+                        </div>
+                    </div>
+                    <div class="md:col">
+                        <div class="card" style="max-width: 348px;">
+                            <h1 class="mb-3" style="font-size: 1.125rem;">Average Seconds (sec)</h1>
+                            <p class="mb-5">Average time taken to read this paragraph in seconds.</p>
+  <h1 class="btn btn-lg btn-info w-100" id="seconds" style="color:white">0 sec</h1>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function getdata() {
+                var plainText = document.getElementById("data").value;
+                const res = EstimatedReadingTime.estimatedReadingTime(plainText, "plain_text", { isTechnical: false });
+                const numwords = res["numWords"];
+                const minutes = res["minutes"];
+                const seconds = res["seconds"];
+
+
+                document.getElementById("numWords").innerText = numwords + " " + "words";
+                document.getElementById("minutes").innerText = minutes + " " + "min";
+                document.getElementById("seconds").innerText = seconds + " " + "sec";
+            }
+        </script>
+        <script defer type="text/javascript" src="https://unpkg.com/estimated-reading-time@latest/dist/umd/index.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/yanchokraev/grayshift@1.0.2/dist/js/grayshift.min.js" integrity="sha384-8jCLciEK/63juoJgc5SxCqHbZwhVfEQb7TUYSdbDrZV97ozI9/UBWCvr9O8r8JJT" crossorigin="anonymous"></script>
+    </body>
+</html>
+
