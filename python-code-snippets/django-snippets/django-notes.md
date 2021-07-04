@@ -148,3 +148,17 @@ models.ForeignKey('self', on_delete=models.CASCADE).
  
 
 
+
+
+# django model pattern
+from django.db import models
+class <ModelName>(models.Model):
+    <var_name> = models.<FieldType>(params=args)
+    +
+    +
+    +
+    +
+    +
+    
+    def __str__(self):
+        return self.<var_name>

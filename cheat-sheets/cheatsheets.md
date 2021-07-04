@@ -8,8 +8,15 @@
 [Django Cheat Sheet - And Free Samples](https://www.creative-tim.com/blog/django-templates/django-cheat-sheet-free-samples/)
 
 
-
 https://websitesetup.org/jquery-cheat-sheet/
 https://websitesetup.org/wordpress-cheat-sheet/
 https://websitesetup.org/css3-cheat-sheet/
 https://websitesetup.org/html5-periodical-table/
+https://websitesetup.org/javascript-cheat-sheet/
+https://websitesetup.org/javascript-cheat-sheet/
+https://websitesetup.org/jquery-cheat-sheet/
+https://websitesetup.org/sql-cheat-sheet/
+https://htmlcheatsheet.com/js/
+https://websitesetup.org/javascript-cheat-sheet/
+https://ilovecoding.org/blog/js-cheatsheet
+https://hackr.io/blog/javascript-cheat-sheet

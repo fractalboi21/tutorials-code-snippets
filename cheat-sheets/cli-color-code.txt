@@ -1,8 +1,4 @@
 https://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html
-
-
-
-
    Background Black: \u001b[40m
     Background Red: \u001b[41m
     Background Green: \u001b[42m
