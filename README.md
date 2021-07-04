@@ -28,5 +28,8 @@
 - portfolio website with crud functionality
 - date time related projects (days between, how many days are the in my life)
 - calculate the time required to read a blog post
+- structure your life using life map
+- instagram post bot that can generate images , position fonts, resize crop them upload them in quese
+
 
 ## heroku workflow

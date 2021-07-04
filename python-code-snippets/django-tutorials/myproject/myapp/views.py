@@ -13,3 +13,4 @@ def name_list(request):
     return render(request,"index.html",context = {"info":"world"})
 #dont forget to include the to urld.py
 
+def 

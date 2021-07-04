@@ -26,3 +26,5 @@ function injectBootstrap() {
     document.head.appendChild(script2);
     document.head.appendChild(script3);
 }
+
+injectBootstrap()
