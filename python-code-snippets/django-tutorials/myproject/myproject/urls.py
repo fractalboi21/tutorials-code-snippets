@@ -16,9 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from myapp.views import geeks_view, name_list
+from blogapp.views import blogs, posts
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', geeks_view),
-    path('names/',name_list)
+    path('names/',name_list),
+    path("blogs_count/",blogs),
+    path("<int:index>/posts/",posts)
+    
 ]

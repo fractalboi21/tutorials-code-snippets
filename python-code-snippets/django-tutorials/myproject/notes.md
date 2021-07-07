@@ -58,3 +58,7 @@ def name_list(request):
     return render(request,"index.html",context = {"info":"world"})
 ```
 
+filter query in django
+```python
+Blog.objects.filter(tags__contains="python")
+``
