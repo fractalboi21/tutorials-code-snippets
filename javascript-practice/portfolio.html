@@ -21,17 +21,31 @@ h1 {
     border-width: 5px;
         }
 
+.btn {
+background-color: black;
+max-width:100px;
+border-radius:15px;
+padding: 15px;
+margin:15px;
+font-size:15px;
+border: 5px solid blue; 
+text-align:center;
+font-weight:bold;
+}
 </style>
 </head>
 <body>
 <h1>Portfolio</h1>
-<div id="date">hellow</div>
-
+<p class="btn">hello</p>
+<p class="btn">bello</p>
+<p class="btn">jello</p>
+<p>diplay</p>
 <script>
 function datenow() {
 date = new Date();
 return date;
 }
+
 
 
 setInterval(datenow(),1000)
