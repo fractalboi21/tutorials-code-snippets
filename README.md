@@ -35,3 +35,5 @@
 ## react-native related blogs
 - [React Native Navigation Tutorial](https://www.robinwieruch.de/react-native-navigation)
 - [React Native Navigation v5 Example Tutorial](https://www.positronx.io/react-native-navigation-example-tutorial/)
+- [React Native StackNavigator – Passing & Getting Params to Screen](https://www.positronx.io/react-native-stack-navigator-passing-getting-params-to-screen/)
+- 
